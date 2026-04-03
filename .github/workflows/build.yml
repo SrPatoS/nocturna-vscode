@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build VSIX
-        run: npx @vscode/vsce package --no-git-check -o nocturna.vsix
+        run: npx @vscode/vsce package -o nocturna.vsix
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4

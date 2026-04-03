@@ -4,6 +4,10 @@
   "description": "Port of the Nocturna IntelliJ theme to VS Code",
   "version": "1.0.0",
   "publisher": "viniciusaviz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SrPatoS/nocturna-vscode"
+  },
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.60.0"
