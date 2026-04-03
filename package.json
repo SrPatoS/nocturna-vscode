@@ -1,0 +1,26 @@
+{
+  "name": "nocturna-theme",
+  "displayName": "Nocturna Theme",
+  "description": "Port of the Nocturna IntelliJ theme to VS Code",
+  "version": "1.0.0",
+  "publisher": "viniciusaviz",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "package": "npx @vscode/vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nocturna",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nocturna-color-theme.json"
+      }
+    ]
+  }
+}
