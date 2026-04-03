@@ -1,8 +1,8 @@
 {
   "name": "nocturna-vscode",
-  "displayName": "Nocturna Theme",
+  "displayName": "Nocturna Vs Code",
   "description": "Port of the Nocturna IntelliJ theme to VS Code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "SrPatoS",
   "repository": {
     "type": "git",
